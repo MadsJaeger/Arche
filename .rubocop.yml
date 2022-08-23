@@ -1,0 +1,21 @@
+AllCops:
+  TargetRubyVersion: 3.0
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: single_quotes
+
+Style/StringLiteralsInInterpolation:
+  Enabled: true
+  EnforcedStyle: double_quotes
+
+Layout/LineLength:
+  Max: 120
+
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    default: '[]'
+    '%i':    '()'
+
+Style/RegexpLiteral:
+  AllowInnerSlashes: true
